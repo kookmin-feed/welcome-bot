@@ -1,1 +1,4 @@
 *.env
+.DS_Store
+nohup.out
+supervisord.log
