@@ -7,7 +7,7 @@ dotenv.load_dotenv()
 
 # 봇 설정
 TOKEN = os.getenv("TOKEN")  # 봇 토큰
-WELCOME_CHANNEL_ID = int(os.getenv("WELCOME_CHANNEL_ID"))  # 채널 ID (int 변환)
+WELCOME_CHANNEL_ID = os.getenv("WELCOME_CHANNEL_ID")  # 채널 ID (int 변환)
 
 intents = discord.Intents.default()
 intents.members = True
